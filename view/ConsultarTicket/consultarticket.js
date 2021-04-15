@@ -118,7 +118,7 @@ $(document).ready(function(){
 });
 
 function ver(tick_id){
-    window.open('http://localhost/developer/PERSONAL_HelpDesk/view/DetalleTicket/?ID='+ tick_id +'');
+    window.open('https://helpdesk-developer.herokuapp.com/view/DetalleTicket/?ID='+ tick_id +'');
 }
 
 init();
