@@ -17,6 +17,7 @@
                 $db = substr($url["heroku_d8f3c9feb53c652"], 1);
 
                 $conn = new mysqli($server, $username, $password, $db);
+                return $conn;
 
 			} catch (Exception $e) {
 				print "¡Error BD!: " . $e->getMessage() . "<br/>";
